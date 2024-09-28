@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dummies",
+  "info": {
+    "singularName": "dummy",
+    "pluralName": "dummies",
+    "displayName": "dummy"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "buttonText": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "paragraph": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
